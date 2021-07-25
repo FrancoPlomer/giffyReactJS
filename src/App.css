@@ -1,9 +1,13 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  color:#fff;
+  background-color: #282c34;
+  text-decoration: none;
 }
 
 .App-content {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -12,3 +16,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.gifClick
+{
+  color:#ffff;
+  text-decoration: none;
+  border: 1px solid #eee;
+  margin:2rem auto;
+}
+
